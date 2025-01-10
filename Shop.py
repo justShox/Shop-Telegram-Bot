@@ -2,7 +2,7 @@ import telebot, buttons as bt, database as db
 from geopy import Nominatim
 from telebot.types import ReplyKeyboardRemove
 
-bot = telebot.TeleBot('6592791880:AAGhH3HHcOYbtqZ5lZsWkX3YigMTF9MGnTQ')
+bot = telebot.TeleBot('YOUR_TOKEN_HERE')
 # Использование карт
 geolocator = Nominatim(
     user_agent='Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36')
